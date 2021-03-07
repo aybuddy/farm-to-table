@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Link, NavLink } from 'react-router-dom';
 import {
   MobileNavIcon,
   Nav,
@@ -8,6 +7,7 @@ import {
   NavItem,
   NavList,
   NavLogo,
+  NavLink,
 } from './Navbar.styles';
 
 const Navbar = () => {

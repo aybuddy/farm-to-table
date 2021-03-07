@@ -1,14 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 *,
 *:before,
 *:after {
@@ -48,3 +37,9 @@ a::after {
   display: block;
   position: absolute;
 }
+
+/* #2e0014
+ #442220
+ #809848
+ #b0ca87
+ #b5dead */

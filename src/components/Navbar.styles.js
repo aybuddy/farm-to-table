@@ -21,6 +21,7 @@ export const NavLogo = styled(Link)`
   font-size: 36px;
   flex: 0.2;
   text-decoration: none;
+  color: #b5dead;
 `;
 
 export const NavList = styled.ul`
@@ -30,16 +31,20 @@ export const NavList = styled.ul`
   flex: 0.8;
   width: 100%;
   text-align: center;
+  color: #b5dead;
 `;
 
 export const NavItem = styled.li`
   height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const NavLink = styled(Link)`
-  text-decoration: none;
-  display: flex;
-  align-items: center;
+  font-size: 24px;
+  color: #b5dead;
 `;
 
 export const MobileNavIcon = styled.div`
