@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroSection from '../components/HeroSection';
 
 const Contact = () => {
   return (
     <div>
-      <h1>This is the Contact Page</h1>
+      <HeroSection title={'The Contact Page'} />
     </div>
   );
 };

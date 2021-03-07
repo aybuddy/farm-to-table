@@ -7,6 +7,10 @@ import Contact from './pages/Contact';
 import Menu from './pages/Menu';
 import Order from './pages/Order';
 
+// TODO Create a data object for menu page to map over
+// FIXME data.js in src folder is for hero page. Loop over the objects and create components to display the data
+// TODO Each page will have a separate data object to map over
+
 function App() {
   return (
     <Router>

@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroSection from '../components/HeroSection';
 
 const Order = () => {
   return (
     <div>
-      <h1>This is the order page</h1>
+      <HeroSection title={'The Order Page'} />
     </div>
   );
 };

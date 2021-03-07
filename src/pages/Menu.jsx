@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroSection from '../components/HeroSection';
 
 const Menu = () => {
   return (
     <div>
-      <h1>This is the Menu Page</h1>
+      <HeroSection title={'The Menu Page'} />
     </div>
   );
 };
